@@ -1,5 +1,4 @@
 # React-Machine-Coding-Round-Questions
-All React Based Coding Questions Solutions Here :-
 1. To Do List
 2. Timer
 3. Counter
