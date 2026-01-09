@@ -1,0 +1,43 @@
+body {
+  background-color: rgb(210, 230, 230);
+}
+
+.quote-gen-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  .quote-content {
+    margin-bottom: 0px;
+    max-width: 500px;
+    font-size: large;
+  }
+
+  .quote-author {
+    font-style: italic;
+  }
+
+  button {
+    padding: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: brown;
+    color: aliceblue;
+    font-weight: 700;
+  }
+}
+
+.loading-state,
+.error-state {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  color: red;
+  font-size: xx-large;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
