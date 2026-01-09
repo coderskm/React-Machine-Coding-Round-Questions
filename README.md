@@ -1,7 +1,7 @@
 # React-Machine-Coding-Round-Questions
 1. To Do List
 2. Timer
-3. Counter
+3. [Counter](https://react-counter-app-vite.netlify.app/)
 4. Quote Generator
 5. Weather App
 6. Fuzzy Search Bar
