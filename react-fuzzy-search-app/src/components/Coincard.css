@@ -1,0 +1,35 @@
+.coincard {
+  border: 5px solid darkcyan;
+  margin: 20px;
+  padding: 20px;
+  width: 20%;
+  border-radius: 10px;
+  overflow: auto;
+}
+
+.icon-style {
+  height: 100px;
+  border-radius: 50%;
+  border: 3px solid saddlebrown;
+}
+
+.link-style {
+  font-size: large;
+  font-weight: 700;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .coincard {
+    width: 90%;
+    margin: 10px auto;
+  }
+}
